@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://D:/File/Java/repository/org/springframework/boot/spring-boot-starter-parent/3.1.10/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-common/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-gateway/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-model/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

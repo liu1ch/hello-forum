@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3bc7bae4-198d-4d79-af94-d9b4c9b157ab" name="Changes" comment="用户端 注册功能 待完成" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;state&quot;: &quot;CLOSED&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;CLOSED&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/liu1ch/hello-forum.git",
+    "accountId": "a41ae56a-34e7-43c3-a228-ecf833d046db"
+  }
+}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:/File/Java/apache-maven-3.8.8" />
+        <option name="localRepository" value="D:\File\Java\repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="userSettingsFile" value="D:\File\Java\apache-maven-3.8.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2ex747zuVjy7z81kuv1QOkpzt1A" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.UserApplication (1).executor": "Debug",
+    "Spring Boot.UserGatewayApplication (2).executor": "Debug",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "jdk.selected.JAVA_MODULE": "17",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "E:/idea-project/hello-forum",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.2",
+    "run.configurations.included.in.services": "true",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "spring.configuration.checksum": "ae85fa6c82882d17d159809f0d251249",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "repository"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea-project\hello-forum\hello-forum-service\hello-forum-service-user\src\main\resources" />
+      <recent name="E:\idea-project\hello-forum\hello-forum-model\src\main\java\com\hello\model" />
+      <recent name="E:\idea-project\hello-forum\hello-forum-common\src\main\java\com\hello\common" />
+      <recent name="E:\idea-project\hello-forum\hello-forum-common\src\main\java\com\hello" />
+      <recent name="E:\idea-project\hello-forum\hello-forum-service\hello-forum-service-user\src\main\java\com\hello" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea-project\hello-forum" />
+      <recent name="E:\idea-project\hello-forum\hello-forum-common\src\main\resources\META_INF" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hello.common.utils" />
+      <recent name="com.hello.exception" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.UserApplication (1)">
+    <configuration name="UserJwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hello.gateway.user.util.UserJwtUtil" />
+      <module name="hello-forum-gateway-user" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hello.gateway.user.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.hello.common.utils.UserJwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hello.common.utils.UserJwtUtil" />
+      <module name="hello-forum-common" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hello.common.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hello-forum-service-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hello.service.user.UserApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hello.service.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserGatewayApplication (2)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hello-forum-gateway-user" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hello.gateway.user.UserGatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hello.gateway.user.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.UserApplication (1)" />
+        <item itemvalue="Spring Boot.UserGatewayApplication (2)" />
+        <item itemvalue="Application.com.hello.common.utils.UserJwtUtil" />
+        <item itemvalue="Application.UserJwtUtil" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-18abd8497189-intellij.indexing.shared.core-IU-241.14494.240" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-IU-241.14494.240" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3bc7bae4-198d-4d79-af94-d9b4c9b157ab" name="Changes" comment="" />
+      <created>1712834181163</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1712834181163</updated>
+      <workItem from="1712834182241" duration="20930000" />
+      <workItem from="1713017978864" duration="3564000" />
+      <workItem from="1713095725222" duration="23115000" />
+      <workItem from="1713240940169" duration="254000" />
+      <workItem from="1713241206105" duration="181000" />
+      <workItem from="1713241397419" duration="923000" />
+      <workItem from="1713242381914" duration="301000" />
+      <workItem from="1713242902811" duration="58000" />
+      <workItem from="1713243039467" duration="242000" />
+      <workItem from="1713243649691" duration="42000" />
+      <workItem from="1713243924368" duration="1666000" />
+      <workItem from="1713246524412" duration="143000" />
+      <workItem from="1713254532932" duration="857000" />
+      <workItem from="1713258012422" duration="265000" />
+      <workItem from="1713260995327" duration="24000" />
+      <workItem from="1713261676035" duration="2186000" />
+    </task>
+    <task id="LOCAL-00001" summary="用户端 登录功能 完成">
+      <option name="closed" value="true" />
+      <created>1713240411149</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713240411149</updated>
+    </task>
+    <task id="LOCAL-00002" summary="用户端 登录功能 完成">
+      <option name="closed" value="true" />
+      <created>1713240452077</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1713240452077</updated>
+    </task>
+    <task id="LOCAL-00003" summary="用户端 登录功能 完成">
+      <option name="closed" value="true" />
+      <created>1713240615638</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713240615638</updated>
+    </task>
+    <task id="LOCAL-00004" summary="用户端 登录功能 完成">
+      <option name="closed" value="true" />
+      <created>1713242629896</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713242629896</updated>
+    </task>
+    <task id="LOCAL-00005" summary="用户端 登录功能 完成">
+      <option name="closed" value="true" />
+      <created>1713244568686</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713244568686</updated>
+    </task>
+    <task id="LOCAL-00006" summary="用户端 登录功能 完成">
+      <option name="closed" value="true" />
+      <created>1713244912887</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713244912887</updated>
+    </task>
+    <task id="LOCAL-00007" summary="用户端 注册功能 待完成">
+      <option name="closed" value="true" />
+      <created>1713261763358</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1713261763358</updated>
+    </task>
+    <task id="LOCAL-00008" summary="用户端 注册功能 待完成">
+      <option name="closed" value="true" />
+      <created>1713263049959</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1713263049959</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="87e90c3a-a412-4ebd-b8f4-7b91b22c1b79" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="87e90c3a-a412-4ebd-b8f4-7b91b22c1b79">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="roots">
+                    <value>
+                      <list>
+                        <option value="$PROJECT_DIR$" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/hello-forum-common" />
+      <path value="$PROJECT_DIR$/hello-forum-gateway" />
+      <path value="$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway-user" />
+      <path value="$PROJECT_DIR$/hello-forum-model" />
+      <path value="$PROJECT_DIR$/hello-forum-service" />
+      <path value="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user" />
+    </ignored-roots>
+    <MESSAGE value="用户端 登录功能 完成" />
+    <MESSAGE value="用户端 注册功能 待完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="用户端 注册功能 待完成" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
