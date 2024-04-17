@@ -4,7 +4,49 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3bc7bae4-198d-4d79-af94-d9b4c9b157ab" name="Changes" comment="用户端 注册功能 待完成" />
+    <list default="true" id="3bc7bae4-198d-4d79-af94-d9b4c9b157ab" name="Changes" comment="用户端 注册功能 待完成">
+      <change afterPath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/cache/Cache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/cache/DistributedCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/cache/MultistageCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/cache/RedisKeySerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/cache/StringRedisTemplateProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/cache/config/BloomFilterPenetrateProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/cache/config/CacheAutoConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/cache/config/RedisDistributedProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/cache/core/CacheGetFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/cache/core/CacheGetIfAbsent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/cache/core/CacheLoader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/cache/toolkit/CacheUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/cache/toolkit/FastJson2Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/constant/RedisKeyConstant.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/exception/RegisterFailedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/exception/UsernameAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-model/src/main/java/com/hello/model/user/dtos/UserRegisterDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-model/src/main/java/com/hello/model/user/vos/UserRegisterVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/src/main/java/com/hello/service/user/config/RedissonConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/constant/MessageConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-common/src/main/java/com/hello/common/constant/MessageConstant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-common/src/test/java/com/hello/model/gateway/user/exception/HelloForumCommonApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-common/target/classes/com/hello/common/constant/MessageConstant.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-common/target/classes/com/hello/common/constant/MessageConstant.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway-user/src/main/java/com/hello/gateway/user/filter/AuthorizeFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway-user/src/main/java/com/hello/gateway/user/filter/AuthorizeFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway-user/target/classes/com/hello/gateway/user/UserGatewayApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway-user/target/classes/com/hello/gateway/user/UserGatewayApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway-user/target/classes/com/hello/gateway/user/filter/AuthorizeFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway-user/target/classes/com/hello/gateway/user/filter/AuthorizeFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-model/src/main/java/com/hello/model/user/pojos/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-model/src/main/java/com/hello/model/user/pojos/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-model/src/main/java/com/hello/model/user/vos/UserLoginVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-model/src/main/java/com/hello/model/user/vos/UserLoginVO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-model/src/test/java/com/example/helloforummodel/HelloForumModelApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/src/main/java/com/hello/service/user/controller/v1/UserLogin.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/src/main/java/com/hello/service/user/controller/v1/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/src/main/java/com/hello/service/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/src/main/java/com/hello/service/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/src/main/java/com/hello/service/user/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/src/main/java/com/hello/service/user/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/target/classes/com/hello/service/user/UserApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/target/classes/com/hello/service/user/UserApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/target/classes/com/hello/service/user/controller/v1/UserLogin.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/target/classes/com/hello/service/user/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/target/classes/com/hello/service/user/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/target/classes/com/hello/service/user/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/hello-forum-service-user/target/classes/com/hello/service/user/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello-forum-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hello-forum-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,12 +74,12 @@
     &quot;state&quot;: &quot;CLOSED&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/liu1ch/hello-forum.git",
-    "accountId": "a41ae56a-34e7-43c3-a228-ecf833d046db"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/liu1ch/hello-forum.git&quot;,
+    &quot;accountId&quot;: &quot;a41ae56a-34e7-43c3-a228-ecf833d046db&quot;
   }
-}]]></component>
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -52,7 +94,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
@@ -65,6 +107,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_MARK_IGNORED_FILES_AS_EXCLUDED": "true",
+    "Maven.hello-forum [clean].executor": "Run",
+    "Maven.hello-forum [install].executor": "Run",
     "RequestMappingsPanelOrder0": "0",
     "RequestMappingsPanelOrder1": "1",
     "RequestMappingsPanelWidth0": "75",
@@ -77,23 +121,26 @@
     "git-widget-placeholder": "master",
     "jdk.selected.JAVA_MODULE": "17",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/idea-project/hello-forum",
+    "last_opened_file_path": "E:/idea-project/12306",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "spring.configuration.checksum": "ae85fa6c82882d17d159809f0d251249",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
     "ChangesTree.GroupingKeys": [
       "repository"
+    ],
+    "DatabaseDriversLRU": [
+      "redis"
     ]
   }
 }]]></component>
@@ -126,7 +173,7 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.UserApplication (1)">
+  <component name="RunManager" selected="Spring Boot.UserGatewayApplication (2)">
     <configuration name="UserJwtUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hello.gateway.user.util.UserJwtUtil" />
       <module name="hello-forum-gateway-user" />
@@ -219,7 +266,9 @@
       <workItem from="1713254532932" duration="857000" />
       <workItem from="1713258012422" duration="265000" />
       <workItem from="1713260995327" duration="24000" />
-      <workItem from="1713261676035" duration="2186000" />
+      <workItem from="1713261676035" duration="2683000" />
+      <workItem from="1713264725165" duration="592000" />
+      <workItem from="1713352815744" duration="3816000" />
     </task>
     <task id="LOCAL-00001" summary="用户端 登录功能 完成">
       <option name="closed" value="true" />

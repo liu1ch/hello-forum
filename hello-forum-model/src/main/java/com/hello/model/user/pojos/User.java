@@ -30,7 +30,7 @@ public class User implements Serializable {
      * 用户名
      */
     @TableField("user_name")
-    private String userName;
+    private String username;
 
     /**
      * 密码、通信等加密盐

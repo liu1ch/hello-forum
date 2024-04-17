@@ -1,5 +1,8 @@
 package com.hello.service.user.controller.v1;
 
+import com.hello.model.user.dtos.UserRegisterDTO;
+import com.hello.model.user.pojos.User;
+import com.hello.model.user.vos.UserRegisterVO;
 import com.hello.service.user.service.UserService;
 import com.hello.model.user.vos.UserLoginVO;
 import com.hello.model.user.dtos.LoginDTO;
@@ -12,7 +15,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/v1")
 @Slf4j
-public class UserLogin {
+public class UserController {
     @Autowired
     private UserService userService;
 
@@ -27,10 +30,11 @@ public class UserLogin {
         return Result.success(userVO);
     }
     @PostMapping ("/register")
-    public Result<UserLoginVO> register(@ModelAttribute LoginDTO loginDTO) throws PasswordException {
-        log.info("{}",loginDTO);
-        UserLoginVO userVO = userService.login(loginDTO);
-        return Result.success(userVO);
+    public Result<UserRegisterVO> register(@ModelAttribute UserRegisterDTO registerDTO) throws PasswordException {
+        log.info("{}",registerDTO);
+        UserRegisterVO registerVO = userService.register(registerDTO);
+
+        return Result.success(registerVO);
     }
 
 }

@@ -30,6 +30,13 @@ public class AuthorizeFilter implements Ordered, GlobalFilter {
             log.info("登录请求放行");
             return chain.filter(exchange);
         }
+        //2.判断是否是登录
+        if(request.getURI().getPath().contains("/register")){
+            //放行
+            log.info("登录请求放行");
+            return chain.filter(exchange);
+        }
+
 
 
         //3.获取token

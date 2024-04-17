@@ -7,18 +7,16 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
-@Data
 @Builder
 @NoArgsConstructor
 @AllArgsConstructor
-public class UserLoginVO implements Serializable {
-
-    private Long id;
+@Data
+public class UserRegisterVO implements Serializable {
 
     private String username;
 
     private String nickName;
 
-    private String token;
+    private String phone;
 
 }
