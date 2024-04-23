@@ -8,8 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hello-forum-gateway-user" />
+        <module name="hello-forum-file-starter" />
+        <module name="hello-forum-service-studio" />
         <module name="hello-forum-model" />
         <module name="hello-forum-common" />
+        <module name="hello-forum-service-post" />
         <module name="hello-forum-service-user" />
       </profile>
     </annotationProcessing>

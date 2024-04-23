@@ -11,7 +11,6 @@
 
     <groupId>com.hello</groupId>
     <artifactId>hello-forum-gateway-user</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>hello-forum-gateway-user</name>
     <description>hello-forum-gateway-user</description>
     <properties>

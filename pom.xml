@@ -15,6 +15,7 @@
     <module>hello-forum-model</module>
     <module>hello-forum-service</module>
     <module>hello-forum-common</module>
+    <module>hello-forum-basic</module>
   </modules>
 
   <properties>
@@ -50,6 +51,7 @@
     <mybatis-plus-boot-starter.version>3.5.3.1</mybatis-plus-boot-starter.version>
     <redisson.version>3.21.3</redisson.version>
     <guava.version>30.0-jre</guava.version>
+    <minio.version>8.4.3</minio.version>
   </properties>
 
   <dependencies>
@@ -79,7 +81,22 @@
 
   <dependencyManagement>
     <dependencies>
-
+<!--      内部依赖-->
+      <dependency>
+        <groupId>com.hello</groupId>
+        <artifactId>hello-forum-common</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.hello</groupId>
+        <artifactId>hello-forum-gateway</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.hello</groupId>
+        <artifactId>hello-forum-model</artifactId>
+        <version>${project.version}</version>
+      </dependency>
       <!-- 核心依赖 -->
       <!-- Spring boot 特殊处理包 -->
       <dependency>
@@ -246,7 +263,11 @@
         <artifactId>guava</artifactId>
         <version>${guava.version}</version>
       </dependency>
-
+      <dependency>
+        <groupId>io.minio</groupId>
+        <artifactId>minio</artifactId>
+        <version>${minio.version}</version>
+      </dependency>
     </dependencies>
   </dependencyManagement>
   <build>

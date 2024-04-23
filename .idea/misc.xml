@@ -14,10 +14,14 @@
         <option value="$PROJECT_DIR$/hello-forum-gateway/hello-forum-gateway-user/pom.xml" />
         <option value="$PROJECT_DIR$/hello-forum-model/pom.xml" />
         <option value="$PROJECT_DIR$/hello-forum-common/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

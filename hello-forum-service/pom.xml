@@ -12,12 +12,14 @@
 
     <groupId>com.hello</groupId>
     <artifactId>hello-forum-service</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
     <name>hello-forum-service</name>
+    <version>1.0-SNAPSHOT</version>
     <description>hello-forum-service</description>
 
     <modules>
         <module>hello-forum-service-user</module>
+        <module>hello-forum-service-post</module>
+        <module>hello-forum-service-studio</module>
     </modules>
 
     <dependencies>
@@ -56,7 +58,9 @@
             <groupId>org.redisson</groupId>
             <artifactId>redisson-spring-boot-starter</artifactId>
         </dependency>
-
-
+        <dependency>
+            <groupId>org.mybatis</groupId>
+            <artifactId>mybatis-spring</artifactId>
+        </dependency>
     </dependencies>
 </project>
