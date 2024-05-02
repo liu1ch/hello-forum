@@ -2,7 +2,7 @@ package com.hello.common.exception;
 
 
 /**
- * 账号不存在异常
+ * 账号状态异常
  */
 public class AccountStatusException extends BaseException {
 

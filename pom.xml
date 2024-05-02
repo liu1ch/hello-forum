@@ -97,6 +97,16 @@
         <artifactId>hello-forum-model</artifactId>
         <version>${project.version}</version>
       </dependency>
+      <dependency>
+        <groupId>com.hello</groupId>
+        <artifactId>hello-forum-basic</artifactId>
+        <version>${project.version}</version>
+      </dependency>
+      <dependency>
+        <groupId>com.hello</groupId>
+        <artifactId>hello-forum-file-starter</artifactId>
+        <version>${project.version}</version>
+      </dependency>
       <!-- 核心依赖 -->
       <!-- Spring boot 特殊处理包 -->
       <dependency>

@@ -2,6 +2,8 @@
 <project version="4">
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://D:/File/Java/repository/org/springframework/boot/spring-boot-starter-parent/3.1.10/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-basic/heima-file-starter/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-basic/heima-file-starter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-forum-basic/src/main/java" charset="UTF-8" />
@@ -14,6 +16,8 @@
     <file url="file://$PROJECT_DIR$/hello-forum-gateway/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-forum-model/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-forum-model/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-comment/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-comment/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-forum-service/hello-forum-service-studio/src/main/java" charset="UTF-8" />

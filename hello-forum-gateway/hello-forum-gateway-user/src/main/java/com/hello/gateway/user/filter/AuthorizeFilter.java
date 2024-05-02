@@ -33,7 +33,7 @@ public class AuthorizeFilter implements Ordered, GlobalFilter {
         //2.判断是否是登录
         if(request.getURI().getPath().contains("/register")){
             //放行
-            log.info("登录请求放行");
+            log.info("注册请求放行");
             return chain.filter(exchange);
         }
 
@@ -50,7 +50,7 @@ public class AuthorizeFilter implements Ordered, GlobalFilter {
 
         //5.判断token是否有效
         try {
-
+            log.info("判断tocken是否有效");
             Claims claimsBody = UserJwtUtil.getClaimsBody(token);
             //是否是过期
             int result = UserJwtUtil.verifyToken(claimsBody);
@@ -66,16 +66,20 @@ public class AuthorizeFilter implements Ordered, GlobalFilter {
                 httpHeaders.add("userId", userId + "");
             }).build();
             //重置请求
-            exchange.mutate().request(serverHttpRequest);
+            exchange.mutate().request(serverHttpRequest).build();
 
         }catch (Exception e){
             e.printStackTrace();
+            log.info("token无效");
             response.setStatusCode(HttpStatus.UNAUTHORIZED);
             return response.setComplete();
         }
-
+        log.info("exchange：{}",exchange);
+//        log.info(exchange.toString());
+        Mono<Void> filter = chain.filter(exchange);
+        log.info("filter=={}",filter);
         //6.放行
-        return chain.filter(exchange);
+        return filter;
     }
 
     /**

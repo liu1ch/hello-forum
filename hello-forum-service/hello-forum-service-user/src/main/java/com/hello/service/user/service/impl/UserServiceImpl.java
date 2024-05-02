@@ -112,6 +112,7 @@ public class UserServiceImpl extends ServiceImpl<UserMapper, User> implements Us
                 user.setPassword(password);
 
                 int insert = userMapper.insert(user);
+                log.info("用户注册 user:{},insert:{}",user,insert);
                 if(insert<1){
                     throw new RegisterFailedException(MessageConstant.REGISTER_FAILED);
                 }

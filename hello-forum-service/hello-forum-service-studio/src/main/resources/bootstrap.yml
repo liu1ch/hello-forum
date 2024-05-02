@@ -1,0 +1,13 @@
+server:
+  port: 51803
+
+spring:
+  application:
+    name: forum-studio
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.200.128
+      config:
+        server-addr: 192.168.200.128
+        file-extension: yml

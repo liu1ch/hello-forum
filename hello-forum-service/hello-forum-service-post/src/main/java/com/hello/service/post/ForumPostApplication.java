@@ -11,10 +11,10 @@ import java.util.List;
 
 @SpringBootApplication
 @MapperScan("com.hello.service.post.mapper")
-public class PostApplication {
+public class ForumPostApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(PostApplication.class, args);
+        SpringApplication.run(ForumPostApplication.class, args);
     }
     @Bean
     public DdlApplicationRunner ddlApplicationRunner(@Autowired(required = false) List ddlList) {

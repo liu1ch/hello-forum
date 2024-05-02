@@ -8,6 +8,8 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="hello-forum-gateway-user" />
+        <module name="heima-file-starter" />
+        <module name="hello-forum-service-comment" />
         <module name="hello-forum-file-starter" />
         <module name="hello-forum-service-studio" />
         <module name="hello-forum-model" />
@@ -20,11 +22,14 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="heima-file-starter" options="" />
       <module name="hello-forum-common" options="" />
       <module name="hello-forum-gateway" options="" />
       <module name="hello-forum-gateway-user" options="" />
       <module name="hello-forum-model" options="" />
       <module name="hello-forum-service" options="" />
+      <module name="hello-forum-service-comment" options="" />
+      <module name="hello-forum-service-studio" options="" />
       <module name="hello-forum-service-user" options="" />
     </option>
   </component>

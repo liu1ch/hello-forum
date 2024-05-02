@@ -18,6 +18,7 @@
         <option value="$PROJECT_DIR$/hello-forum-service/hello-forum-service-post/pom.xml" />
         <option value="$PROJECT_DIR$/hello-forum-basic/pom.xml" />
         <option value="$PROJECT_DIR$/hello-forum-basic/hello-forum-file-starter/pom.xml" />
+        <option value="$PROJECT_DIR$/hello-forum-service/hello-forum-service-comment/pom.xml" />
       </list>
     </option>
   </component>

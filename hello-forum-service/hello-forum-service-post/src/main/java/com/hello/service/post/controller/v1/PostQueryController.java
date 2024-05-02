@@ -5,7 +5,7 @@ import com.hello.common.result.Result;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/api/v1/post")
+@RequestMapping("/api/v1")
 public class PostQueryController {
     /**
      * 加载首页
